@@ -1,0 +1,7 @@
+@use './partials/comic-card' as *;
+@use './partials/jumbo' as *;
+@import '~bootstrap/scss/bootstrap';
+
+.card-container {
+    background-image: url('../img/footer-bg.jpg');
+}
