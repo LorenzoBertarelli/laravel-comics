@@ -20,7 +20,7 @@
                     </div>
                 @endforeach
                 <div class="bottone">
-                    <a href="/about"><button>LOAD MORE</button></a>
+                    <a href="{{ route('about') }}"><button>LOAD MORE</button></a>
                 </div>
             </div>
         </div>

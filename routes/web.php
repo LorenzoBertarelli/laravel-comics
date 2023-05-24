@@ -21,4 +21,4 @@ Route::get('/', function () {
 Route::get('/about', function () {
     $db = config('db');
     return view('about', compact('db'));
-});
+})->name('about');
